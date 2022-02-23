@@ -1,0 +1,10 @@
+<meta>
+  <info author="RushCuttle" type="script" name="CarSpawner_RushCuttle" version="0.1a"/>
+  <script src="server/s_Utilities.lua" type="server"/>
+  <script src="server/s_Spawner.lua" type="server"/>
+  <script src="server/s_makers.lua" type="server"/>
+  <script src="server/s_Main.lua" type="server"/>
+  <script src="client/c_GUI_Funcs.lua" type="client"/>
+  <script src="client/c_GUI_Main.lua" type="client"/>
+
+</meta>
