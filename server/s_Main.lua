@@ -6,4 +6,4 @@ addEventHandler("onMarkerHit", resourceRoot, replyToCreateGUI)
 addEventHandler("onMarkerHit", resourceRoot, destroyMarker)
 addCommandHandler("pos", ShowElementCurrentRotation)
 addCommandHandler ( "gui", replyToCreateGUI )
---test
+--testoooo
