@@ -5,7 +5,7 @@ local listMarkers = {
     createMarker(mPosX+10, mPosY, mPosZ, "cylinder", 1.5, 255, 0, 0, 90),
     createMarker(mPosX-10, mPosY, mPosZ, "cylinder", 1.5, 255, 0, 0, 90)
     } 
-function DestroyMarker(hitElement)
+function destroyMarker(hitElement)
 	local elementType = getElementType(hitElement)
     local playerName = getPlayerName(hitElement)
         if (elementType == "player") then
