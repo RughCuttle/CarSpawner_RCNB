@@ -6,9 +6,7 @@ local listMarkers = {
     createMarker(mPosX-10, mPosY, mPosZ, "cylinder", 1.5, 255, 0, 0, 90)
     } 
 function destroyMarker(hitElement)
-	local elementType = getElementType(hitElement)
-    local playerName = getPlayerName(hitElement)
-        if (elementType == "player") then
-            destroyElement(source)
-        end
+    if isPlayerOnFoot(hitElement) then
+        destroyElement(source)
     end
+end 
