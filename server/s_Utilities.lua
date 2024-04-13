@@ -13,3 +13,8 @@ function ShowElementCurrentRotation(element, commandName)
     local elementType = getElementType(element)
     --iprint(string.format("%s Pos -> x: %.2f y: %.2f z: %.2f -- Rotation -> z: %.2f", elementType, ePosX, ePosY, ePosZ ,eRotZ))
 end
+function isPlayerOnFoot(hitElement)
+    if isElement(hitElement) and getElementType(hitElement) == "player" and not getPedOccupiedVehicle(hitElement) then
+        return true
+    end
+end
